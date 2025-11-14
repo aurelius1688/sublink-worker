@@ -3,9 +3,6 @@ main = "src/index.js"
 compatibility_date = "2025-11-14"
 compatibility_flags = ["nodejs_compat"]
 
-# 添加这一行来明确使用 ES Module 格式
-format = "modules"
-
 kv_namespaces = [
   { binding = "SUBLINK_KV", id = "8b024ad8eda245278b306e01f09975ad" }
 ]
